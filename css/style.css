@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    position: relative;
+}
+
+
+.todoForm {
+    margin-top: 50px;
+}
+
+/* #productList {
+    display: flex;
+    gap: 40px;
+} */
+
+/* .btns {
+    display: flex;
+    flex-direction: column;
+} */
+
+h2 {
+    color: white;
+}
+
+h4 {
+    color: rgb(255, 193, 193);
+}
+
+form input {
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.logOut {
+    position: absolute;
+    position: fixed;
+    left: 10%;
+    top: 10%;
+}
+
+.adding {
+    padding: 10px !important;
+    background: rgb(25, 213, 25);
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+.adding:hover {
+    background-color: whitesmoke;
+    color: green;
+}
+
+.btn {
+    border: 1px solid transparent;
+    padding: 5px 12px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-edit {
+    background: rgb(98, 0, 255);
+    color: white;
+    border: 1px solid rgb(61, 92, 249);
+    transition: .5s;
+}
+
+.btn-delete {
+    background: red;
+    color: white;
+    border: 1px solid red;
+    transition: .5s;
+}
+
+.btn-delete:hover {
+    background: transparent;
+    border: 1px solid red;
+}
+
+.btn-edit:hover {
+    background: transparent;
+    border: 1px solid rgb(61, 92, 249);
+}
